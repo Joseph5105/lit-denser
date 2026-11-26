@@ -51,12 +51,12 @@ To do this, we split the U.S. into 10x10(km) grid cells and add weather data so 
 - Source URL: https://www.epa.gov/outdoor-air-quality-data/download-daily-data 
 - Size on disk (uncompressed): 5.1 MB
 - Number of records: 22,127 Rows
-- Method: Dynamic Scraping (Playwright)
+- Method: File Download
 
 ### Schema
-| **Column Name** | **Daily Max 8-hour CO Concentration** | **Daily AQI Value** | **State** |
-|-----------------|---------------------------------------|---------------------|-----------|
-| ***Detail*** | *CO Level: 8-hour average concentration of carbon monoxide*<br>*Data Type: float* | *Air Quality Index*<br>*Data Type: int* | *Data Type: str* |
+| **Column Name** | **Daily Max 8-hour CO Concentration** | **PM2.5** | **Daily AQI Value** | **State** |
+|-----------------|---------------------------------------|--|---------------------|-----------|
+| ***Detail*** | *CO Level: 8-hour average concentration of carbon monoxide*<br>*Data Type: float* |*Fine particulate matter*<br>*Data Type: float*| *Air Quality Index*<br>*Data Type: int* | *Data Type: str* |
 
 ## Dataset #4 - Climate Climatology Lab
 - Title: gridMET - daily high-spatial resolution (~4-km, 1/24th degree) surface meteorological data covering the contiguous US (1979-yesterday)
