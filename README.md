@@ -69,3 +69,18 @@ To do this, we split the U.S. into 10x10(km) grid cells and add weather data so 
 | **Column Name** | **Date** | **Latitude, Longitude** | **pr** | **tmmx, tmmn** | **sph** |
 |-----------------|----------|-------------------------|--------|----------------|---------|
 | ***Detail*** | *Observation Date*<br>*Data Type: date* | *Latitude & Longitude of Grid Cell*<br>*Data Type: float* | *Daily Precipitation (mm)*<br>*Data Type: float* | *Daily Maximum & Minimum Temperature (K)*<br>*Data Type: float* | *Specific Humidity (kg/kg)*<br>*Data Type: float* |
+
+# Repo Structure
+```
+└── lit-denser/
+    ├── .gitignore
+    ├── requirements.txt
+    ├── README.md
+    └── notebooks/
+        ├── 01_create_pop_den_and_fire_rdd.ipynb
+        ├── 02_create_climate_and_epa_rdd.ipynb
+        ├── 03_join_all_rdd.ipynb
+        ├── 04_transform_rdd.ipynb
+        ├── 05_benchmark_rdd.ipynb
+        └── 06_visualization_rdd.ipynb
+```
