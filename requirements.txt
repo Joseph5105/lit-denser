@@ -1,6 +1,7 @@
 appnope==1.0.0
 asttokens==3.0.2
 comm==0.2.3
+csv==1.0
 debugpy==1.8.22
 executing==2.3.0
 ipykernel==7.4.0
